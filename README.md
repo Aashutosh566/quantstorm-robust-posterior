@@ -34,10 +34,10 @@ A competitive trading bot for the **QuantStorm 2026 Divided Oracle** competition
 python backtester.py --bot1 RobustPosterior.py --bot2 rational.py
 
 # Test under tournament conditions
-python backtester.py --bot1 quantstorm_robust_posterior.py --bot2 rational.py --isolate
+python backtester.py --bot1 RobustPosterior.py --bot2 rational.py --isolate
 
 # Validate submission
-python backtester.py --validate quantstorm_robust_posterior.py
+python backtester.py --validate RobustPosterior.py
 
 
 
